@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+  <head>    
+    <style>
+      body {
+        min-width:357px;
+        overflow-x:hidden;
+        background-color: #ebf4fb;
+        font-size: 13px;
+      }
+      a, a:visited{
+        color:#0D2E4C;
+      }
+      input {
+        width: 150px;
+      }
+    </style>
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript" src="background.js"></script>
+  </head>
+  <body>    
+    <ul id="savedLinks">
+    </ul>
+    <button id="reset_storage_button">Reset Storage</button>
+    <button id="current_tab_button">Save Current Tab</button>
+    <hr/>
+    <input name='tab_group_name' title='Enter Window Group Name' id='tab_group_name' value='Enter Tab Group Name'/>
+    <button id="current_window_button" disabled='true'>Save Current Window</button>    
+  </body>
+</html>

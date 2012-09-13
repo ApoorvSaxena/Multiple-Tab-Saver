@@ -1,0 +1,23 @@
+{
+  "name": "Links Saver",
+  "version": "1.0.0",
+  "description": "It allows you to save mutiple tabs' links or single tab with just a single click.",
+  "background": { "scripts": ["jquery.js", "background.js"] },
+  "icons": { 
+    "16": "icon16.png",
+    "24": "icon24.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "permissions": [
+    "tabs",
+    "bookmarks"
+  ],
+  "browser_action": {
+    "name": "Save Tabs",    
+    "default_icon": "icon16.png",
+    "default_popup": "popup.html",
+    "default_title": "Save Links"
+  },  
+  "manifest_version": 2
+}
