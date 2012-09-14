@@ -1,7 +1,7 @@
 {
-  "name": "Links Saver",
-  "version": "1.0.0",
-  "description": "It allows you to save mutiple tabs' links or single tab with just a single click.",
+  "name": "Simply Tabs Saver",
+  "version": "1.0.1",
+  "description": "Quickly save or restore all tabs with just a click!",
   "background": { "scripts": ["jquery.js", "background.js"] },
   "icons": { 
     "16": "icon16.png",
@@ -10,8 +10,7 @@
     "128": "icon128.png"
   },
   "permissions": [
-    "tabs",
-    "bookmarks"
+    "tabs"    
   ],
   "browser_action": {
     "name": "Save Tabs",    

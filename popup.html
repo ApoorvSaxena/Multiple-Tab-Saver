@@ -14,17 +14,38 @@
       input {
         width: 150px;
       }
+      button:hover{
+        color: green;              
+      }
+      #reset_storage_button{
+        color: red;
+      }
+      #menu{
+        position:fixed;
+        background-color: #ebf4fb;
+        width:100%;
+        top:0px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+      }
+      #savedLinks{
+        padding-top:65px;        
+      }
     </style>
     <script type="text/javascript" src="jquery.js"></script>
     <script type="text/javascript" src="background.js"></script>
   </head>
-  <body>    
-    <ul id="savedLinks">
-    </ul>
-    <button id="reset_storage_button">Reset Storage</button>
-    <button id="current_tab_button">Save Current Tab</button>
+  <body> 
+  <div id="menu">
+    <form>
+      <input name='tab_group_name' title='Enter Window Group Name' id='tab_group_name' value='Enter Tab Group Name'/>
+      <button id="current_window_button">Save All Tabs</button>
+    </form>
     <hr/>
-    <input name='tab_group_name' title='Enter Window Group Name' id='tab_group_name' value='Enter Tab Group Name'/>
-    <button id="current_window_button" disabled='true'>Save Current Window</button>    
+    <button id="current_tab_button">Save Current Tab</button>    
+    <button id="reset_storage_button">Reset Storage</button> 
+  </div>   
+    <ul id="savedLinks">
+    </ul>        
   </body>
 </html>
