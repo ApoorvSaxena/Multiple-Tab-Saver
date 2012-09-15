@@ -5,11 +5,12 @@
       body {
         min-width:357px;
         overflow-x:hidden;
-        background-color: #ebf4fb;
+        background-color: #0D2E4C;
         font-size: 13px;
+        font-weight: bold;
       }
       a, a:visited{
-        color:#0D2E4C;
+        color:white;
       }
       input {
         width: 150px;
@@ -22,7 +23,7 @@
       }
       #menu{
         position:fixed;
-        background-color: #ebf4fb;
+        background-color: #0D2E4C;
         width:100%;
         top:0px;
         padding-top: 5px;
@@ -31,6 +32,21 @@
       #savedLinks{
         padding-top:65px;        
       }
+      ul{
+        color:white;        
+      }
+      ul li:nth-child(even) a{
+        color:orange;
+      }
+      ul li:nth-child(odd) a{
+        color:#1DC116;
+      }
+      ul li ul li:nth-child(even) a{
+        color:cyan;
+      }
+      ul li ul li:nth-child(odd) a{
+        color:red;
+      }      
     </style>
     <script type="text/javascript" src="jquery.js"></script>
     <script type="text/javascript" src="background.js"></script>

@@ -1,6 +1,6 @@
 {
   "name": "Simply Tabs Saver",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Quickly save or restore all tabs with just a click!",
   "background": { "scripts": ["jquery.js", "background.js"] },
   "icons": { 
@@ -13,10 +13,10 @@
     "tabs"    
   ],
   "browser_action": {
-    "name": "Save Tabs",    
+    "name": "Quickly Save Tabs",    
     "default_icon": "icon16.png",
     "default_popup": "popup.html",
-    "default_title": "Save Links"
+    "default_title": "Save Tabs"
   },  
   "manifest_version": 2
 }

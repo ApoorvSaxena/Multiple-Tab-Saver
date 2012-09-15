@@ -125,7 +125,7 @@ function render(){
 		    }
 		}	
 		update_link_list(tabs_list);
-	}	
+	}
 }
 
 function update_link_list(list){
